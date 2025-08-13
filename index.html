@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Malla Interactiva - Contador Público</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Contador Público</h1>
+  <div id="contador-creditos">
+    <h2>Créditos mínimos requeridos por área</h2>
+    <div class="total-creditos"><b>Total mínimo:</b> 360 créditos</div>
+    <ul class="areas-creditos">
+      <li><span class="area-nombre">Contabilidad e Impuestos</span> <span class="area-valor">130</span></li>
+      <li><span class="area-nombre">Administración</span> <span class="area-valor">50</span></li>
+      <li><span class="area-nombre">Jurídica</span> <span class="area-valor">40</span></li>
+      <li><span class="area-nombre">Métodos Cuantitativos</span> <span class="area-valor">40</span></li>
+      <li><span class="area-nombre">Actividades Integradoras</span> <span class="area-valor">20</span></li>
+      <li><span class="area-nombre">Economía</span> <span class="area-valor">30</span></li>
+      <li><span class="area-nombre">Ciencias Sociales y Humanísticas</span> <span class="area-valor">10</span></li>
+    </ul>
+    <div style="margin-top:10px; font-size:0.93em; color:#b2466d;">
+      El avance y créditos por área se actualizan en tiempo real.<br>
+      <span style="color:#888;">¿Dudas? Revisa el plan oficial para detalles y correlatividades.</span>
+    </div>
+  </div>
+  <div id="malla-container"></div>
+  <button id="reset-progress">Reiniciar Progreso</button>
+  <footer>
+    <p>Tu avance se guarda automáticamente en este dispositivo. | 
+      <a href="https://github.com/yanainaaa/malla-administracion-publica" target="_blank">Ver en GitHub</a>
+    </p>
+  </footer>
+  <script src="malla.js"></script>
+  <script src="contador-creditos.js"></script>
+</body>
+</html>
